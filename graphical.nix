@@ -16,8 +16,15 @@ in
     # Add Firefox and other tools useful for installation to the launcher
     favoriteAppsOverride = ''
       [org.gnome.shell]
-      favorite-apps=[ 'firefox.desktop', 'org.gnome.Console.desktop', 'org.gnome.Nautilus.desktop', 'dev.vlinkz.NixSoftwareCenter.desktop', 'gparted.desktop', 'org.snowflakeos.Icicle.desktop' ]
-    '';
+      favorite-apps=[ 	'firefox.desktop', 
+      			'org.gnome.Console.desktop', 
+      			'org.gnome.Nautilus.desktop', 
+			'dev.vlinkz.NixSoftwareCenter.desktop', 
+			'gparted.desktop', 
+			'org.snowflakeos.Icicle.desktop' 
+			'org.timeshift.desktop']
+
+			'';
 
     # Override GNOME defaults to disable GNOME tour and disable suspend
     extraGSettingsOverrides = ''
